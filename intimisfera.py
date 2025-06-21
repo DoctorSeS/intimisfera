@@ -104,8 +104,6 @@ async def get_input(prompt):
 
     return await future
 
-openai_api_key = "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"
-
 def deepseek_response(all_responses):
     interpretare_prompt = f"""
         {all_responses}
